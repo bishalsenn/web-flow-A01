@@ -16,11 +16,14 @@ body{
 }
 .header{
   background-image: url(../Assets/Hero-bg.png);
+  width:100% ;
+  margin: 0 auto;
+  justify-content: center;
   
 }
 main{
   /* max-width: 1140px; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 nav{
@@ -34,6 +37,8 @@ h3{
   font-size:34px ;
 font-weight: 900;
 }
+/* button styles */
+
 .btn-primary{
   background-color: #4E47FF;
   border: none;
@@ -42,6 +47,10 @@ color: white;
 padding:12px 36px ;
 font-size: 16px;
 
+}
+button:hover{
+  background-color: rgb(218, 218, 67);
+  cursor: grab;
 }
 /* banner styles */
 .banner{
@@ -89,6 +98,10 @@ align-items: center;
 margin: 140px;
 
   }
+  .font-title{
+    font-size:38px ;
+    font-weight:bold;
+  }
   .user-items{
     display: flex;
     justify-content: space-around;
@@ -111,11 +124,15 @@ font-weight: bold;
 .get-in-touch{
 display: flex;
 /* text-align: center; */
-padding: ;
+padding: 940px 150px 0px ;
 gap: 115px;
 justify-content: space-between;
 /* background-color: rgba(214, 221, 237, 1); */
-margin: 1449px 150px;
+justify-content: center;
+margin: 100px 150px;
+width: 100%;
+margin-bottom: 0%;
+
 }
 
 
@@ -151,7 +168,7 @@ font-weight: bold;
   footer{
     text-align: center;
     /* display: flex; */
-    margin: 104px 574px;
+    margin-top: 0
   }
   .footer-items{
     display: flex;
@@ -163,8 +180,54 @@ font-weight: 900;
 
 
 
+
 footer p a,.footer-description {
     text-decoration: none;
     /* font-size: 20px; */
     color: #8987A1;
+}
+.text{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.Flex{
+  display: flex;
+  align-items: center;
+  /* margin: 150px 150px; */
+  margin-top: 0 auto;
+  /* justify-content: space-around; */
+  justify-content: center;
+  gap: 20px;
+  padding:85px 580px ;
+
+}
+/* review card styles */
+.Card{
+border:2px solid rgba(242, 237, 237, 1);
+border-radius: 14px;
+background-color: white;
+padding: 68px 24px;
+text-align: left;
+display: flex;
+}
+.avatar{
+  display: flex;
+  align-items: center;
+}
+.avatar img{
+  width: 40px;
+height: 40px;
+
+}
+.name{
+  display: flex;
+}
+.bg-2{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.bg-2 img{
+  margin-top: 20px;
+  border-radius: 20px;
 }
