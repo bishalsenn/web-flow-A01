@@ -5,12 +5,15 @@
   font-style: normal;
 }
 
-.inter-logo {
+.inter-logo,.get-in-touch {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
+body{
 
+  background-color: rgba(245, 248, 255, 1);
+}
 .header{
   background-image: url(../Assets/Hero-bg.png);
   
@@ -43,7 +46,7 @@ font-size: 16px;
 /* banner styles */
 .banner{
   margin: 230px 300px;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   *margin: 0px;
 
 }
@@ -103,3 +106,65 @@ font-size: 80px;
 font-weight: bold;
 
 }  
+/* get in touch styles */
+
+.get-in-touch{
+display: flex;
+/* text-align: center; */
+padding: ;
+gap: 115px;
+justify-content: space-between;
+/* background-color: rgba(214, 221, 237, 1); */
+margin: 1449px 150px;
+}
+
+
+.get-in-touch-title{
+
+font-size: 97px;
+font-weight: bold;
+
+
+}
+.get-in-touch-coloumn{
+  gap: 10px;
+}
+.get-in-touch input[type="text"],.get-in-touch input[type="email"],.get-in-touch textarea{
+    height: 64px;
+    border-radius: 10px;
+    background-color:white
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border:rgba(214, 221, 237, 1);
+    gap: 10px;
+    
+    
+}
+  .submit{
+    width: 497px;
+  }
+
+  /* footer styles */
+
+  footer{
+    text-align: center;
+    /* display: flex; */
+    margin: 104px 574px;
+  }
+  .footer-items{
+    display: flex;
+    justify-content: space-around;}
+  .footer-title{
+font-size: 100px;
+font-weight: 900;
+  }
+
+
+
+footer p a,.footer-description {
+    text-decoration: none;
+    /* font-size: 20px; */
+    color: #8987A1;
+}
